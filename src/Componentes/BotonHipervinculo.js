@@ -1,13 +1,14 @@
 
 
-function BotonHipervinculo{
-  
-  const manejarClic = () =>{
+function BotonHipervinculo (props){
+  const url = props.vinculo;
 
+  const manejarClic = () =>{
+    window.open(url, '_blank')
   };
 
   return(
-    <button></button>
+    <button onClick={manejarClic}>{props.nombre}</button>
   );
 }
 
