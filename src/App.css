@@ -11,10 +11,20 @@
   align-items: center;
 }
 
+
 .Cabecera{
   width: 500px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}*/
+}
+
+.contenedor-aplicaciones{
+  width: 800px;
+  min-height: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+*/
