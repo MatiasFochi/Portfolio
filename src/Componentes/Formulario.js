@@ -10,15 +10,15 @@ function Formulario (props){
   };
 
   return(
-    <div>
+    <div className='formulario-contenedor'>
       <h1>Contacto</h1>
       <form
       className="formulario"
       onSubmit={manejarEnvio}>
         <input 
-        className='nombre-input'
+        className='mail-input'
         type='text'
-        placeholder='Ingrese su nombre'
+        placeholder='Ingrese su correo electronico'
         name='texto'/>
         <input 
         className='empresa-input'

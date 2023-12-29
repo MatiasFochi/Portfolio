@@ -6,7 +6,7 @@ import Formulario from './Componentes/Formulario.js';
 function App() {
   return (
     <div className="App">
-      <Cabecera className='Cabecera' />
+      <Cabecera />
       <div className='contenedor-aplicaciones'>
         <AppContenedor
           vinculo= 'https://startling-marzipan-de3cc9.netlify.app' 
