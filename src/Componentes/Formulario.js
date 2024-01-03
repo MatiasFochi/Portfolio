@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../HojasDeEstilo/Formulario.css';
 
 function Formulario (props){
 
@@ -11,7 +12,7 @@ function Formulario (props){
 
   return(
     <div className='formulario-contenedor'>
-      <h1>Contacto</h1>
+      <h1 className='titulo'>Contacto</h1>
       <form
       className="formulario"
       onSubmit={manejarEnvio}>
@@ -30,7 +31,7 @@ function Formulario (props){
         type='text'
         placeholder='Escriba su mensaje'
         name='texto'/>
-        <button className='Formulario-boton'>Enviar</button>
+        <button className="btn btn-success submit"  >Enviar</button>
       </form>
     </div>
   );

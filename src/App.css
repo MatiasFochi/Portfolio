@@ -2,30 +2,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --primario: #03585b;
+  --secundario: #02716a;
+  --fondo: #7fbfb0;
+  --adicional1: #f2b49e;
+  --adicional2: #f29580;
 }
 
 html,
 body{
   color:white;
-  background-color: #1b1b32;
+  background-color: var(--fondo);
   font-family: Lato, sans-serif;
+  color:var(--primario);
   margin-top: 40px;
 }
 
 .App{
-  display:flex;
-  flex-wrap: wrap;
+  display: grid;
   justify-content: center;
   align-items: center;
+  width: auto;
+  min-height: auto;
 }
 
 /* Contenedor Aplicaciones */
 
 .contenedor-aplicaciones{
-  width: 600px;
-  min-height: 500px;
-  background-color: #53a3a0;
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--primario);
   padding: 25px;
-  margin: 10px;
   border-radius: 15px;
+  border: 1px solid seashell;
+  justify-content: center;
+  align-items: center;
 }

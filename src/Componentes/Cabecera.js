@@ -4,11 +4,11 @@ import '../HojasDeEstilo/Cabecera.css';
 function Cabecera(props) {
   return(
     <div className='cabecera-contenedor'>
-      <div>
+      <div className='texto-contenedor'>
         <h1 className='nombre' >Matias Fochi</h1>
         <p className='subtitulo'>Desarrollador Front-End</p> 
       </div> 
-      <div>
+      <div className='cabecera-foto-contenedor'>
       <img
       className='foto-perfil' 
       src = {FotoPerfil} 

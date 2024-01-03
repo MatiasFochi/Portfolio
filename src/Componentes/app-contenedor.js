@@ -15,7 +15,7 @@ function AppContenedor (props){
       className="aplicacion-logo"/> 
       <button 
       onClick={manejarClic}
-      className="hipervinculo-boton">
+      className="btn btn-warning">
         {props.nombre}
       </button>
     </div>
